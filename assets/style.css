@@ -1,0 +1,37 @@
+.fs-ssm{
+    font-size: 14px;
+}
+
+.fs-xxl{
+    font-size: 5rem;
+}
+
+.divs-facilidades{
+    width: 325px;
+}
+
+.verde-neon{
+    color:#DAFF01;
+}
+
+.m-personalizado{
+    margin: 2rem auto;
+}
+
+.btn-violet{
+    background-color: #9353FF;
+    padding: 9px 16px;
+}
+
+.btn-violet:hover{
+    background-color: #854de7;
+    transform: scale(1.01);
+}
+
+.btn-violet:active{
+    background-color: #854de7!important;
+}
+
+.img-ajuste{
+    width: 100%;
+}

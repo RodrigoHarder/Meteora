@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><h1 class="m-0"><img  lass="d-block" src="./assets/img/logo-meteora.png" alt="logotipo Meteora"></h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bi bi-list fs-1 text-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="página" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Lojas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Novidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Promoção</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto"
+                            aria-label="Pesquisar">
+                        <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <figure class="carousel-item active">
+                    <img  class ="img-ajuste img-fluid d-md-none" src="./assets/img/Mobile/banner1-mobile.png" alt="Modelo feminina vestindo moletom rosa acetinado em fundo lilás.">
+                    <img  class ="img-ajuste img-fluid d-none d-md-block d-xl-none" src="./assets/img/Tablet/banner1-tablet.png" alt="Modelo feminina vestindo moletom rosa acetinado em fundo lilás.">
+                    <img  class ="img-ajuste img-fluid d-none d-xl-block" src="./assets/img/Desktop/banner1-desktop.png" alt="Modelo feminina vestindo moletom rosa acetinado em fundo lilás.">
+                </figure>
+                <figure class="carousel-item">
+                    <img  class ="img-ajuste img-fluid d-md-none" src="./assets/img/Mobile/banner2-mobile.png" alt="Modelo feminina vestindo conjunto de moletom preto e com óculos escuros preto sentada em um sofá preto em um fundo rosa.">
+                    <img  class ="img-ajuste img-fluid d-none d-md-block d-xl-none" src="./assets/img/Tablet/banner2-tablet.png" alt="Modelo feminina vestindo conjunto de moletom preto e com óculos escuros preto sentada em um sofá preto em um fundo rosa.">
+                    <img  class ="img-ajuste img-fluid d-none d-xl-block" src="./assets/img/Desktop/banner2-desktop.png" alt="Modelo feminina vestindo conjunto de moletom preto e com óculos escuros preto sentada em um sofá preto em um fundo rosa.">
+                </figure>
+                <figure class="carousel-item">
+                    <img  class ="img-ajuste img-fluid d-md-none" src="./assets/img/Mobile/banner3-mobile.png" alt="Modelo masculino usando camisa branca casaco cinza grava borboleta preta, óculos escuros e chapéu na cor cinza em fundo laranja.">
+                    <img  class ="img-ajuste img-fluid d-none d-md-block d-xl-none" src="./assets/img/Tablet/banner3-tablet.png" alt="Modelo masculino usando camisa branca casaco cinza grava borboleta preta, óculos escuros e chapéu na cor cinza em fundo laranja.">
+                    <img  class ="img-ajuste img-fluid d-none d-xl-block" src="./assets/img/Desktop/banner3-desktop.png" alt="Modelo masculino usando camisa branca casaco cinza grava borboleta preta, óculos escuros e chapéu na cor cinza em fundo laranja.">
+                </figure>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </section>
+
+        <h2 class="text-center mt-5 mb-3">Busque por categoria:</h2>
+
+        <section class="container grid row mx-auto g-4">
+
+            <article class="col-6 col-md-4 col-xxl-2">
+                <div class="card rounded-0 border-0 largura-categorias">
+                    <img class="d-md-none" src="./assets/img/categorias/camiseta-mobile.png" alt="Camiseta com bolso na cor verde. O bolso da camiseta possui detalhes em vermelho.">
+                    <img class="d-none d-md-block d-xl-none" src="./assets/img/categorias/camiseta-tablet.png" alt="Camiseta com bolso na cor verde. O bolso da camiseta possui detalhes em vermelho.">
+                    <img class="d-none d-xl-block" src="./assets/img/categorias/camiseta-desktop.png" alt="Camiseta com bolso na cor verde. O bolso da camiseta possui detalhes em vermelho.">
+                    <div class="card-header bg-black">
+                        <p class="text-center fs-5 text-white m-0">Camisetas</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-6 col-md-4 col-xxl-2">
+                <div class="card rounded-0 border-0">
+                    <img class="d-md-none" src="./assets/img/categorias/bolsa-mobile.png" alt="Bolsa marrom com alça em metal.">
+                    <img class="d-none d-md-block d-xl-none" src="./assets/img/categorias/bolsa-tablet.png" alt="Bolsa marrom com alça em metal.">
+                    <img class="d-none d-xl-block" src="./assets/img/categorias/bolsa-desktop.png" alt="Bolsa marrom com alça em metal.">
+                    <div class="card-header bg-black">
+                        <p class="text-center fs-5 text-white m-0">Bolsas</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-6 col-md-4 col-xxl-2">
+                <div class="card rounded-0 border-0">
+                    <img class="d-md-none" src="./assets/img/categorias/calcados-mobile.png" alt="Par de tênis branco com detalhes coloridos.">
+                    <img class="d-none d-md-block d-xl-none" src="./assets/img/categorias/calcados-tablet.png" alt="Par de tênis branco com detalhes coloridos.">
+                    <img class="d-none d-xl-block" src="./assets/img/categorias/calcados-desktop.png" alt="Par de tênis branco com detalhes coloridos.">
+                    <div class="card-header bg-black">
+                        <p class="text-center fs-5 text-white m-0">Calçados</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-6 col-md-4 col-xxl-2">
+                <div class="card rounded-0 border-0">
+                    <img class="d-md-none" src="./assets/img/categorias/calcas-mobile.png" alt="Calças jeans dobradas e empilhadas.">
+                    <img class="d-none d-md-block d-xl-none" src="./assets/img/categorias/calcas-tablet.png" alt="Calças jeans dobradas e empilhadas.">
+                    <img class="d-none d-xl-block" src="./assets/img/categorias/calcas-desktop.png" alt="Calças jeans dobradas e empilhadas.">
+                    <div class="card-header bg-black">
+                        <p class="text-center fs-5 text-white m-0">Calças</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-6 col-md-4 col-xxl-2">
+                <div class="card rounded-0 border-0">
+                    <img class="d-md-none" src="./assets/img/categorias/jaqueta-mobile.png" alt="Casaco marrom.">
+                    <img class="d-none d-md-block d-xl-none" src="./assets/img/categorias/jaqueta-tablet.png" alt="Casaco marrom.">
+                    <img class="d-none d-xl-block" src="./assets/img/categorias/jaqueta-desktop.png" alt="Casaco marrom.">
+                    <div class="card-header bg-black">
+                        <p class="text-center fs-5 text-white m-0">Casacos</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-6 col-md-4 col-xxl-2">
+                <div class="card rounded-0 border-0">
+                    <img class="d-md-none" src="./assets/img/categorias/oculos-mobile.png" alt="Óculos de sol com lentes arredondadas.">
+                    <img class="d-none d-md-block d-xl-none" src="./assets/img/categorias/oculos-tablet.png" alt="Óculos de sol com lentes arredondadas.">
+                    <img class="d-none d-xl-block" src="./assets/img/categorias/oculos-desktop.png" alt="Óculos de sol com lentes arredondadas.">
+                    <div class="card-header bg-black">
+                        <p class="text-center fs-5 text-white m-0">Óculos</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <h2 class="text-center mt-5 mb-3">Produtos que estão bombando!</h2>
+
+        <section class="container row mx-auto mb-5 g-4">
+
+            <article class="col-12 col-md-6 col-xxl-4">
+                <div class="card rounded-0">
+                    <img class="d-md-none" src="./assets/img/produtos/camisetas-mobile.png" alt="Modelo masculino usando uma touca preta e uma camiseta amarela em um fundo branco.">
+                    <img class="d-none d-md-block d-xl-none" src="./assets/img/produtos/camisetas-tablet.png" alt="Modelo masculino usando uma touca preta e uma camiseta amarela em um fundo branco.">
+                    <img class="d-none d-md-none d-xl-block" src="./assets/img/produtos/camisetas-desktop.png" alt="Modelo masculino usando uma touca preta e uma camiseta amarela em um fundo branco.">
+                    <div class="card-body">
+                        <h5 class="card-title">Camiseta Conforto</h5>
+                        <p class="card-text fs-ssm">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
+                        <p class="fw-bold">R$ 70,00</p>
+                        <a href="#" class="btn btn-violet text-white rounded-0">Ver mais</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-md-6 col-xxl-4">
+                <div class="card rounded-0">
+                    <img class="d-md-none" src="./assets/img/produtos/calcas-mobile.png" alt="Modelo feminina usando calça rosa, bota branca e camisa estampada marrom em fundo com vegetação rasteira.">
+                    <img class="d-none d-md-block d-xl-none" src="./assets/img/produtos/calcas-tablet.png" alt="Modelo feminina usando calça rosa, bota branca e camisa estampada marrom em fundo com vegetação rasteira.">
+                    <img class="d-none d-md-none d-xl-block" src="./assets/img/produtos/calcas-desktop.png" alt="Modelo feminina usando calça rosa, bota branca e camisa estampada marrom em fundo com vegetação rasteira.">
+                    <div class="card-body">
+                        <h5 class="card-title">Calça Alfaiataria</h5>
+                        <p class="card-text fs-ssm">Modelo Wide Leg alfaiataria em tecido de linho. Temos muitas opções de cores para diferentes ocasiões!</p>
+                        <p class="fw-bold">R$ 180,00</p>
+                        <a href="#" class="btn btn-violet text-white rounded-0">Ver mais</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-md-6 col-xxl-4">
+                <div class="card rounded-0">
+                    <img class="d-md-none" src="./assets/img/produtos/calcados-mobile.png" alt="Tênis branco sobre uma poça de água.">
+                    <img class="d-none d-md-block d-xl-none" src="./assets/img/produtos/calcados-tablet.png" alt="Tênis branco sobre uma poça de água.">
+                    <img class="d-none d-md-none d-xl-block" src="./assets/img/produtos/calcados-desktop.png" alt="Tênis branco sobre uma poça de água.">
+                    <div class="card-body">
+                        <h5 class="card-title">Tênis Chunky</h5>
+                        <p class="card-text fs-ssm">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex e em diferentes cores.</p>
+                        <p class="fw-bold">R$ 250,00</p>
+                        <a href="#" class="btn btn-violet text-white rounded-0">Ver mais</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-md-6 col-xxl-4">
+                <div class="card rounded-0">
+                    <img class="d-md-none" src="./assets/img/produtos/jaqueta-mobile.png" alt="Modelo masculino com touca preta, vestindo uma jaqueta jeans em fundo branco.">
+                    <img class="d-none d-md-block d-xl-none" src="./assets/img/produtos/jaqueta-tablet.png" alt="Modelo masculino com touca preta, vestindo uma jaqueta jeans em fundo branco.">
+                    <img class="d-none d-md-none d-xl-block" src="./assets/img/produtos/jaqueta-desktop.png" alt="Modelo masculino com touca preta, vestindo uma jaqueta jeans em fundo branco.">
+                    <div class="card-body">
+                        <h5 class="card-title">Jaqueta Jeans</h5>
+                        <p class="card-text fs-ssm">Modelo unissex oversized em jeans lavado com gola de camurça. Atemporal e autêntica!</p>
+                        <p class="fw-bold">R$ 150,00</p>
+                        <a href="#" class="btn btn-violet text-white rounded-0">Ver mais</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-md-6 col-xxl-4">
+                <div class="card rounded-0">
+                    <img class="d-md-none" src="./assets/img/produtos/oculos-mobile.png" alt="Modelo masculino de cabelo raspada usando uma camiseta branca de manga longa e um óculos redondo. Há um cachorro no colo do homem. No fundo há uma parede na cor branca.">
+                    <img class="d-none d-md-block d-xl-none" src="./assets/img/produtos/oculos-tablet.png" alt="Modelo masculino de cabelo raspada usando uma camiseta branca de manga longa e um óculos redondo. Há um cachorro no colo do homem. No fundo há uma parede na cor branca.">
+                    <img class="d-none d-md-none d-xl-block" src="./assets/img/produtos/oculos-desktop.png" alt="Modelo masculino de cabelo raspada usando uma camiseta branca de manga longa e um óculos redondo. Há um cachorro no colo do homem. No fundo há uma parede na cor branca.">
+                    <div class="card-body">
+                        <h5 class="card-title">Óculos Redondo</h5>
+                        <p class="card-text fs-ssm">Armação metálica em grafite com lentes arredondadas que possuem antirreflexo. Sem erro!</p>
+                        <p class="fw-bold">R$ 120,00</p>
+                        <a href="#" class="btn btn-violet text-white rounded-0">Ver mais</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-md-6 col-xxl-4">
+                <div class="card rounded-0">
+                    <img class="d-md-none" src="./assets/img/produtos/bolsas-mobile.png" alt="Modelo com calça preta, sapato preto e camiseta branca e casaco longo na cor marrom segurando uma bolsa na cor laranja. No fundo há uma parede bege.">
+                    <img class="d-none d-md-block d-xl-none" src="./assets/img/produtos/bolsas-tablet.png" alt="Modelo com calça preta, sapato preto e camiseta branca e casaco longo na cor marrom segurando uma bolsa na cor laranja. No fundo há uma parede bege.">
+                    <img class="d-none d-md-none d-xl-block" src="./assets/img/produtos/bolsas-desktop.png" alt="Modelo com calça preta, sapato preto e camiseta branca e casaco longo na cor marrom segurando uma bolsa na cor laranja. No fundo há uma parede bege.">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolsa coringa</h5>
+                        <p class="card-text fs-ssm">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
+                        <p class="fw-bold">R$ 120,00</p>
+                        <a href="#" class="btn btn-violet text-white rounded-0">Ver mais</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="py-5 bg-black">
+            <h2 class="fs-1 text-center my-5 px-3 text-white">Conheça todas as nossa facilidades</h2>
+            <div class="d-flex flex-lg-row flex-column align-items-center justify-content-around">
+                <div class="divs-facilidades d-flex gap-3 align-items-center">
+                    <div><i class="bi bi-x-diamond fs-xxl verde-neon"></i></div>
+                    <div>
+                        <h6 class="fs-4 verde-neon">PAGUE PELO PIX</h6>
+                        <p class=" fs-5 text-white">Ganhe 5% OFF em pagamentos via PIX</p>
+                    </div>
+                </div>
+                <div class="divs-facilidades d-flex gap-3 align-items-center">
+                    <div><i class="bi bi-arrow-repeat fs-xxl verde-neon"></i></div>
+                    <div>
+                        <h6 class="fs-4 verde-neon">TROCA GRÁTIS</h6>
+                        <p class="fs-5 text-white">Fique livre para trocar em até 30 dias</p>
+                    </div>
+                </div>
+                <div class="divs-facilidades d-flex gap-3 align-items-center">
+                    <div><i class="bi bi-flower1 fs-xxl verde-neon"></i></div>
+                    <div>
+                        <h6 class="fs-4 verde-neon">SUSTENTABILIDADE</h6>
+                        <p class="fs-5 text-white">Moda responsável, que respeita o meio ambiente</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <form class="border border-2 border-secondary p-3 w-75 m-personalizado text-center">
+                <h6>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h6>
+                <div class="input-group my-3">
+                    <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail"
+                        aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
+                    <button type="button" class="btn btn-violet text-white rounded-0" id="button-addon2">Enviar</button>
+                </div>
+            </form>
+
+    </main>
+
+    <footer class="bg-black" >
+        <p class="text-white m-0 p-3 text-center fs-6">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
