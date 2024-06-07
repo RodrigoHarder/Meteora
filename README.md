@@ -27,10 +27,6 @@ Ao longo do curso de [Bootstrap5: crie uma loja virtual](https://cursos.alura.co
 - Adotar tags semânticas para tornar o código mais familiar aos leitores de tela e aos mecanismos de busca SEO;
 - Manter uma preocupação com relação a responsividade e acessibilidade do projeto;
 
-## **Funcionalidades**
-
-Para ter acesso ao projeto e tudo que ele possui basta clicar [neste link](https://rodrigoharder.github.io/bootstrap-5/) que irá te redirecionar para o site.
-
 ## **Como usar os arquivos?**
 
 - Inicialmente você precisa ter instalado em seu computador um editor de código-fonte, no meu caso eu utilizo o [Visual Studio Code](https://code.visualstudio.com/download). 
